@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "Virtual distributed filesystem engine that powers Spacedrive."
 authors = ["Spacedrive Technology Inc."]
 license = "GNU GENERAL PUBLIC LICENSE"
-repository = "https://github.com/spacedriveapp/spacedrive"
 edition = "2021"
 
 [features]
@@ -13,7 +12,6 @@ p2p = [] # This feature controlls whether the Spacedrive Core contains the Peer 
 [dependencies]
 hostname = "0.3.1"
 
-# Universal Dependencies
 base64 = "0.13.0"
 serde = { version = "1.0", features = ["derive"] }
 chrono = { version = "0.4.0", features = ["serde"] }
